@@ -1,0 +1,34 @@
+{
+  "name": "veronon",
+  "version": "1.0.0",
+  "description": "merge multible PDF documents, or parts of them, to a new PDF document",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "browser": "./browser.js",
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LiaFlatley/veronon.git"
+  },
+  "keywords": [
+    "nemo",
+    "merge"
+  ],
+  "author": "LilianaToy",
+  "license": "MIT",
+  "dependencies": {
+    "pdfjs": "^2.4.7"
+  },
+  "devDependencies": {
+    "fs-extra": "^10.0.0",
+    "jest": "^27.5.1",
+    "jsdom": "^19.0.0",
+    "node-fetch": "^3.2.0",
+    "pdf-diff": "^0.1.1",
+    "standard": "^16.0.4"
+  }
+}
